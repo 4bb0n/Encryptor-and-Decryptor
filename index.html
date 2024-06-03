@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encryptor by Abbon!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <input id="script"><br><br>
+    <p id="answer" type="text">
+    </p>
+    <br>
+    <button class="button" id="encrypt">ENCRYPT</button>
+    <button class="btn" id="decrypt">DECRYPT</button> <br>
+    <button id="copy" onclick="copyText()">COPY</button>
+    <button id="clear">CLEAR</button>
+    <button id="position">CLICK ME!</button>
+    <button id="disableAutoEncrypt">Disable Auto-Encrypt</button>
+    <button id="openui" onclick="openUi()">OPEN NEW</button>
+    <button id="getTime" onclick="myTime">Refresh Time</button>
+    <br>
+    <a href="test.html">
+    <button>Abbon's official site</button>
+    <button id="settings">Settings</button>
+    </a>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <input type="file" onchange="readFile" id="message">
+    <hr>
+    <input id="time" readonly>
+    <script src="index.js"></script>
+    <script src="copy.js"></script>
+    <script src="clear.js"></script>
+    <script src="time.js"></script>
+</body>
+</html>
